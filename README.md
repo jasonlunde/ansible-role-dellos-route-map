@@ -49,6 +49,7 @@ Role variables
 | ``match.ip_type`` | string (required): ipv4,ipv6   | Configures the IPv4/IPv6 address to match    | dellos10 |
 | ``match.access_group`` | string     | Configures the access-group or list to match                  | dellos10 |
 | ``match.prefix_list`` | string     | Configures the IP prefix-list to match against                  | dellos10 |
+| ``match.community`` | string     | Configures the community-list to match against                  | dellos10 |
 | ``route_map.state`` | string, choices: present\*,absent   | Deletes the route-map if set to absent  | dellos10 |
 | ``as_path`` | list | Configures the BGP AS path filter (see ``as_path.*``) | dellos10 |
 | ``as_path.access_list`` | string (required)         | Configures the access-list name               | dellos10 |
